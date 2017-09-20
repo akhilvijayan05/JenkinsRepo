@@ -1,5 +1,5 @@
-[0m[[0mdebug[0m] [0mRunning TaskDef(EvenOddSpec, org.scalatest.tools.Framework$$anon$1@328ab4fe, false, [SuiteSelector])[0m
-[0m[[0minfo[0m] [0m[36mRun completed in 479 milliseconds.[0m[0m
+[0m[[0mdebug[0m] [0mRunning TaskDef(EvenOddSpec, org.scalatest.tools.Framework$$anon$1@a876bc7, false, [SuiteSelector])[0m
+[0m[[0minfo[0m] [0m[36mRun completed in 925 milliseconds.[0m[0m
 [0m[[0minfo[0m] [0m[36mTotal number of tests run: 2[0m[0m
 [0m[[0minfo[0m] [0m[36mSuites: completed 1, aborted 0[0m[0m
 [0m[[0minfo[0m] [0m[36mTests: succeeded 2, failed 0, canceled 0, ignored 0, pending 0[0m[0m

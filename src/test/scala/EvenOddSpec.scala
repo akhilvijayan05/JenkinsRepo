@@ -1,3 +1,4 @@
+import com.knoldus.EvenOdd
 import org.scalatest.{AsyncWordSpecLike, MustMatchers}
 
 /**
@@ -10,7 +11,7 @@ class EvenOddSpec extends AsyncWordSpecLike with MustMatchers with EvenOdd{
   val evenResult = "Its Even"
   val oddResult = "Its Odd"
 
-  "EvenOdd" should{
+  "com.knoldus.EvenOdd" should{
     "check number is even" in {
       assert(check(even) == evenResult)
     }
