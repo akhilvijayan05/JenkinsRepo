@@ -1,13 +1,15 @@
 pipeline {
 	agent any
-	tools {
-        	sbt 'org.scala-sbt' 
-    	}
 	stages{
 		stage('Build') {
 			steps{
 			sbt compile
                         sbt run
+			}
+		}
+		stage('Test') {
+			steps{
+			sbt test
 			}
 		}
 	}
