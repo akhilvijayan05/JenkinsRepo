@@ -1,6 +1,11 @@
 pipeline {
-agent any
-stages{
-echo 'Hello'
-}
+	agent any
+	stages{
+		stage('Build') {
+			steps{
+			sbt compile
+                        sbt run
+			}
+		}
+	}
 }
