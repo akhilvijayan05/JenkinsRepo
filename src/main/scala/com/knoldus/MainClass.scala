@@ -7,3 +7,4 @@ object MainClass extends App with EvenOdd{
   println("You entered number " + number)
   println(check(3))
 }
+
